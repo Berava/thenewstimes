@@ -3,20 +3,17 @@ html {
     font-family: 'Open sans', sans-serif;
 }
 
-h1 {
-    font-size: 3.75rem;
-    font-family: 'Sacramento', cursive;
-}
 
-h2 {
+.text-title {
     font-size: 1.875rem;
     font-style: italic;
     margin: 30px 0;
 }
 
-p {
+.article-text {
     margin: 20px 20px;
     text-align: justify;
+    line-height: 1.5;
 }
 
 .header-box {
@@ -27,6 +24,8 @@ p {
 
 .title {
     margin: 40px 0;
+    font-size: 3.75rem;
+    font-family: 'Sacramento', cursive;
 }
 
 main {
@@ -44,37 +43,36 @@ main {
     border: 1px solid black; 
 }
 
-.left-article {
+.quarter {
     width: 25%;
 }
 
-.center-article {
+.half {
     width: 50%;
 }
 
-.right-article {
-    width: 25%;
+.story-image {
+    width: 100%;
 }
 
-nav {
+.three-quarter {
     width: 75%;
 }
 
 .menu {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 100%;
 }
 
-.menu > li {
-    height: 100%;
+.nav-item {
+    flex-grow: 1;
+    width: 100%;
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 25px;
 }
 
-li > a {
+.nav-item  a {
     font-family: 'B612 Mono', monospace;
     font-size: 30px;
     font-weight: 700;
@@ -82,22 +80,26 @@ li > a {
     text-decoration: none;
 }
 
-.first-link {
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.nav-item:nth-child(1) {
     background-color: cornsilk;
 }
 
-.second-link {
+.nav-item:nth-child(2) {
     background-color: deepskyblue;
 }
 
-.third-link {
+.nav-item:nth-child(3) {
     background-color: darkseagreen;
 }
 
-.fourth-link {
+.nav-item:nth-child(4) {
     background-color: teal;
 }
 
-.fifth-link {
+.nav-item:nth-child(5) {
     background-color: blueviolet;
 }
