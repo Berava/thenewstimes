@@ -1,0 +1,103 @@
+html {
+    font-size: 16px;
+    font-family: 'Open sans', sans-serif;
+}
+
+h1 {
+    font-size: 3.75rem;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-size: 1.875rem;
+    font-style: italic;
+    margin: 30px 0;
+}
+
+p {
+    margin: 20px 20px;
+    text-align: justify;
+}
+
+.header-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    margin: 40px 0;
+}
+
+main {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.text-box {
+    text-align: center;
+    border: 1px solid black; 
+}
+
+.left-article {
+    width: 25%;
+}
+
+.center-article {
+    width: 50%;
+}
+
+.right-article {
+    width: 25%;
+}
+
+nav {
+    width: 75%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.menu > li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+li > a {
+    font-family: 'B612 Mono', monospace;
+    font-size: 30px;
+    font-weight: 700;
+    color: grey;
+    text-decoration: none;
+}
+
+.first-link {
+    background-color: cornsilk;
+}
+
+.second-link {
+    background-color: deepskyblue;
+}
+
+.third-link {
+    background-color: darkseagreen;
+}
+
+.fourth-link {
+    background-color: teal;
+}
+
+.fifth-link {
+    background-color: blueviolet;
+}
